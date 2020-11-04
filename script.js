@@ -15,9 +15,9 @@ const colorScale = d3.scale
     .domain([0, 0.5, 1])
     .range(["#446093", "#874e8e", "#bc3939"]),
   option1 = "DONALD J. TRUMP | MICHAEL R. PENCE",
-  option2 = "HILLARY CLINTON | TIM KAINE",
+  option2 = "JOSEPH R. BIDEN | KAMALA D. HARRIS",
   electionData =
-    "https://gist.githubusercontent.com/JesseCHowe/2342b9aff332091c57c4fd3d3c72f242/raw/bdb6e89087067f3c2d92816716126d57ef97d8ac/Oklahoma_2016_General_Election.csv";
+    "https://raw.githubusercontent.com/JesseCHowe/oklahoma-election-2020-presidential-election-results/main/data/results.csv";
 
 let active = d3.select(null),
   zoomMode = false;
