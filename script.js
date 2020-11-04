@@ -320,8 +320,7 @@ function loaded(error, county, us, results, places) {
       .style("fill", "")
       .style("fill-opacity", 0)
       .attr("class", (d) => `county-boundary2 ${d.properties.COUNTY_NAM}`)
-      .on("mousemove", (d) => county_mouseOverFunc(d))
-      .on("mouseout", (d) => county_mouseOutFunc(d));
+      .on("mousemove", (d) => county_mouseOverFunc(d));
   }
 
   function getColorElection(d) {
